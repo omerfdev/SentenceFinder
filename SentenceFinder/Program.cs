@@ -17,9 +17,9 @@ namespace SentenceFinder
             string[] arraysentence = sentence.Split(" ");
 
             string[] arrayfindsentence = searchSentenceArrayMethod();
-            int uzunluk = arrayfindsentence.Length;
+            int arrayfindsentenceLength = arrayfindsentence.Length;
 
-            if (uzunluk > 1) { searchSentenceArrayMethod(); }
+            if (arrayfindsentenceLength > 1) { searchSentenceArrayMethod(); }
 
 
 
